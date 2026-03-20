@@ -1,0 +1,8 @@
+Top suspicious IPs based on anomaly score
+=======================================
+192.168.1.13: score=-0.0595, requests=3, errors=3, suspicious_hits=2
+
+Interpretation hints:
+- Low anomaly score → more unusual behavior compared to population.
+- Look for high error rates, suspicious path accesses, or very high request rates.
+- Investigate these IPs in SIEM/vendors for potential intrusions or scans.
