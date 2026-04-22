@@ -51,3 +51,4 @@ def generate_report(df: pd.DataFrame, output_path: str, top_n: int = 10) -> None
         f.write('- Low anomaly score → more unusual behavior compared to population.\n')
         f.write('- Look for high error rates, suspicious path accesses, or very high request rates.\n')
         f.write('- Investigate these IPs in SIEM/vendors for potential intrusions or scans.\n')
+

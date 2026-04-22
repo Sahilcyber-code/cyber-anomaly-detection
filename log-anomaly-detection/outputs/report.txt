@@ -1,6 +1,8 @@
 Top suspicious IPs based on anomaly score
 =======================================
-192.168.1.13: score=-0.0595, requests=3, errors=3, suspicious_hits=2
+66.249.66.1: score=-0.0220, requests=3, errors=0, suspicious_hits=0
+185.220.101.1: score=-0.0121, requests=7, errors=6, suspicious_hits=1
+45.33.32.156: score=-0.0114, requests=6, errors=5, suspicious_hits=3
 
 Interpretation hints:
 - Low anomaly score → more unusual behavior compared to population.
