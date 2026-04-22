@@ -396,4 +396,7 @@ def download_data(csv_clicks, pdf_clicks, data):
     return None
 
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=8050)
+    import os
+
+port = int(os.environ.get("PORT", 8050))
+app.run(host="0.0.0.0", port=port)
